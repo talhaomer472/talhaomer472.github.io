@@ -1,21 +1,12 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Talha Omer's Personal Website"
-title_separator          : "-"
 name                     : "Talha Omer"
-description              : "Personal website of Talha Omer"
+description              : "Doctoral candidate in Statistics at Jönköping University."
 url                      : "https://talhaomer472.github.io"
 baseurl                  : ""
 repository               : "talhaomer472/talhaomer472.github.io"
-teaser                   : "/assets/images/teaser.jpg"
 logo                     : "/assets/images/logo.png"
-masthead_title           : " "
-breadcrumbs              : true
-words_per_minute         : 200
-enable_copy_code_button  : true
-copyright                : "Talha Omer"
-copyright_url            : "https://talhaomer472.github.io"
-search                   : true
 
 # Theme Settings
 remote_theme             : "mmistakes/minimal-mistakes"
@@ -72,14 +63,6 @@ plugins:
 # Markdown Processing
 markdown: kramdown
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
