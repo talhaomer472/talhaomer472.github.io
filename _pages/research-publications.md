@@ -1,6 +1,6 @@
 ---
 title: "Research Publications"
-layout: single
+layout: page
 permalink: /research-publications/
 ---
 
