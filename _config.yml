@@ -1,18 +1,18 @@
 # Site Settings
 title: "Talha Omer's Personal Website"
 description: "Doctoral candidate in Statistics at Jönköping University."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://talhaomer472.github.io" # the base hostname & protocol for your site
+baseurl: "" # Ensure this is an empty string for user pages
+url: "https://talhaomer472.github.io" # The base hostname & protocol for your site
 
 # Theme
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # Add this line to the plugins list if you already have one
 
 # Site Author
 author:
   name: "Talha Omer"
-  avatar: "/assets/images/Mypic.jpeg"
+  avatar: "/assets/images/Mypic.jpeg" # Ensure the path is correct
   bio: "Doctoral candidate in Statistics at Jönköping University."
   location: "Jönköping, Sweden"
   email: "talha.omer@ju.se"
