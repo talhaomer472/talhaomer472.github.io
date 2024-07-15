@@ -12,7 +12,7 @@ plugins:
 # Site Author
 author:
   name: "Talha Omer"
-  avatar: "/assets/Mypic.jpeg"
+  avatar: "/assets/images/Mypic.jpeg"
   bio: "Doctoral candidate in Statistics at Jönköping University."
   location: "Jönköping, Sweden"
   email: "talha.omer@ju.se"
@@ -48,4 +48,3 @@ navigation:
     url: "/teaching/"
   - title: "Codes"
     url: "/codes/"
-
