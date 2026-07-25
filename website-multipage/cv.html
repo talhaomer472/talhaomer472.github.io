@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Talha Omer</title>
+<meta name="description" content="Talha Omer, Senior Lecturer in Statistics at Linnaeus University. Econometrics, time series forecasting, high-dimensional statistics, statistical machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Talha&nbsp;<span>Omer</span></a>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">&#9776;</button>
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="software.html">Software</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="cv.html" class="active">CV</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="eyebrow">Curriculum vitae</div>
+  <h1 class="page-title">CV &amp; contact</h1>
+  <p class="page-sub">Download my full CV, or reach me through any of the channels below.</p>
+  <p><a class="btn btn-primary" href="Talha_Omer_CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a></p>
+
+  <div class="section-label">Contact</div>
+  <div class="contact-grid">
+    <div class="cc"><div class="lbl">University email</div><a href="mailto:talha.omer@lnu.se">talha.omer@lnu.se</a></div>
+    <div class="cc"><div class="lbl">Email</div><a href="mailto:talhaomer472@gmail.com">talhaomer472@gmail.com</a></div>
+    <div class="cc"><div class="lbl">Google Scholar</div><a href="https://scholar.google.com/citations?user=j2tth_cAAAAJ&hl=en" target="_blank" rel="noopener">View profile</a></div>
+    <div class="cc"><div class="lbl">ResearchGate</div><a href="https://www.researchgate.net/profile/Talha-Omer" target="_blank" rel="noopener">View profile</a></div>
+    <div class="cc"><div class="lbl">LinkedIn</div><a href="https://www.linkedin.com/in/talha-omer-b4a803196/" target="_blank" rel="noopener">View profile</a></div>
+  </div>
+
+  <div class="section-label">Highlights</div>
+  <div class="two-col">
+    <div class="card">
+      <h3>Education</h3>
+      <p><strong>PhD in Statistics</strong>, Jönköping University (2024)</p>
+      <p><strong>MPhil in Statistics</strong>, Quaid-i-Azam University, Islamabad</p>
+      <p><strong>MSc in Statistics</strong>, Arid Agriculture University, Rawalpindi</p>
+      <p><strong>BA (Statistics/Economics)</strong>, Bahauddin Zakariya University, Multan</p>
+    </div>
+    <div class="card">
+      <h3>Selected grants</h3>
+      <p><strong>2024:</strong> Bertil och Britt Svenssons Stiftelse för Belysningsteknik — 325,000 SEK (with Prof. Myriam Aries).</p>
+      <p><strong>2021:</strong> Jan Wallander &amp; Tom Hedelius / Tore Browaldh Foundation — 208,000 SEK travel grant (University of Alabama).</p>
+    </div>
+  </div>
+</div>
+<footer class="foot">
+  &copy; <span id="yr"></span> Talha Omer &middot; Senior Lecturer in Statistics, Linnaeus University &middot;
+  <a href="https://scholar.google.com/citations?user=j2tth_cAAAAJ&hl=en" target="_blank" rel="noopener">Scholar</a> &middot;
+  <a href="https://www.researchgate.net/profile/Talha-Omer" target="_blank" rel="noopener">ResearchGate</a> &middot;
+  <a href="https://www.linkedin.com/in/talha-omer-b4a803196/" target="_blank" rel="noopener">LinkedIn</a>
+</footer>
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  function closeMenu(){var m=document.getElementById('menu');if(m)m.classList.remove('open');}
+  document.querySelectorAll('#menu a').forEach(function(a){a.addEventListener('click',closeMenu);});
+</script>
+</body>
+</html>
